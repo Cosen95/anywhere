@@ -1,0 +1,22 @@
+{
+  "name": "anywhere",
+  "version": "1.0.0",
+  "description": "nodejs local server",
+  "main": "index.js",
+  "repository": "git@github.com:Jack-cool/anywhere.git",
+  "author": "fengshuan <1263215592@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  // "pre-commit": [
+  //   "fix",
+  //   "lint"
+  // ],
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.10.0",
+    "pre-commit": "^1.2.2"
+  }
+}
