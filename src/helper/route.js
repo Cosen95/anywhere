@@ -33,7 +33,7 @@ module.exports = async function (req, res, filePath) {
                 files: files.map(file => {
                     return {
                         file,
-                        icon: mime(file).text
+                        icon: mime(file).icon
                     }
                 })
             };
