@@ -2,7 +2,10 @@
   "name": "anywhere",
   "version": "1.0.0",
   "description": "nodejs local server",
-  "main": "index.js",
+  "main": "src/app.js",
+  "bin":{
+    "anywhere": "bin/anywhere"
+  },
   "repository": "git@github.com:Jack-cool/anywhere.git",
   "author": "fengshuan <1263215592@qq.com>",
   "license": "MIT",
@@ -13,7 +16,8 @@
   "devDependencies": {
     "babel-eslint": "^10.0.1",
     "eslint": "^5.10.0",
-    "pre-commit": "^1.2.2"
+    "pre-commit": "^1.2.2",
+    "yargs": "^12.0.5"
   },
   "dependencies": {
     "chalk": "^2.4.1",
