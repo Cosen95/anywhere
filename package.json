@@ -1,5 +1,5 @@
 {
-  "name": "anywhere",
+  "name": "anyfolder",
   "version": "1.0.0",
   "description": "nodejs local server",
   "main": "src/app.js",
