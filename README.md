@@ -32,13 +32,10 @@ const server = http.createServer((req,res) => {
     route(req, res, filePath, conf);
 });
         
-server.listen(this.conf.port,this.conf.host, () => {
+server.listen(conf.port,conf.host, () => {
     const addr = `http://${conf.host}:${conf.port}`;
     console.info(`Server started at ${chalk.green(addr)}`);
 });
-
-module.exports = Server;
-
 
 ```
 
